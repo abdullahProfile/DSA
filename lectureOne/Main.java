@@ -20,9 +20,9 @@ public class Main {
 		Box<Integer> intBox=new Box<Integer>(123);
 		System.out.println("Intger value: "+ intBox.getItem());
 
-		//create box for String value
+		//create object for String value
 		Box<String> strBox= new Box<String>("generic object");
 
-		System.out.println("Integer value: " + strBox.getItem());
+		System.out.println("String value: " + strBox.getItem());
 	}
 }
