@@ -59,7 +59,7 @@ public class ArrayOparation {
 
     int[] arr={1,3,4,4,5,9};
 
-    System.out.println("Max Number: " + findMaximum(arr, 0, 9));
+    System.out.println("Max Number: " + findMaximum(arr, 0, 6));
 
   }
 }
