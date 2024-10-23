@@ -1,10 +1,10 @@
-public class ArrayOparation {
+public class ArrayOperation {
 
   public static int findMaximum(int arr[], int i, int j) {
     int max=arr[i];
 
     for (int k=i+1; k<=j; k++) {
-      if(arr[i] > max) {
+      if(arr[k] > max) {
         max=arr[k];
       }
     }
@@ -59,7 +59,10 @@ public class ArrayOparation {
 
     int[] arr={1,3,4,4,5,9};
 
-    System.out.println("Max Number: " + findMaximum(arr, 0, 6));
+    System.out.println("Max Number: " + findMaximum(arr, 0, 5));
+    System.out.println("Max Position: " + maxPosition(arr, 0, 5));
+    System.out.println("Min Number: " + findMin(arr, 0, 5));
+    System.out.println("Min Position: " + minPosition(arr, 0, 5));
 
   }
 }
