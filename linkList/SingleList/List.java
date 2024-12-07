@@ -1,4 +1,4 @@
-package linkList;
+package linkList.SingleList;
 
 
 import java.util.Scanner;
