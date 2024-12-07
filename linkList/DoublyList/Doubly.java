@@ -106,16 +106,14 @@ public class Doubly <T>{
           System.out.print("Not found");
       }
   }
-  
+
   public void printF(){
-      
+
       Node node=head;
-      
       while(node !=null) {
           System.out.print(node.data+ "-->");
           node=node.next;
       }
-      
       System.out.println();
   }
   
