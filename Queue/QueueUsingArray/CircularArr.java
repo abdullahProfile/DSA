@@ -1,11 +1,11 @@
-package Queue;
+package Queue.QueueUsingArray;
 
-public class QArr {
+public class CircularArr {
 
   int[] arr;
   int front, rear, size, capacity;
 
-  QArr(int capa) {
+  CircularArr(int capa) {
       capacity = capa;
       arr = new int[capacity];
       front = 0;
@@ -68,7 +68,7 @@ public class QArr {
   }
 
   public static void main(String[] args) {
-      QArr temp = new QArr(2);
+      CircularArr temp = new CircularArr(2);
 
       temp.inqueue(20);
       temp.inqueue(40);
