@@ -1,4 +1,4 @@
-package Queue;
+package Queue.QueueUsingList;
 
 
 class Node {
